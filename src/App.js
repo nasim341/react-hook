@@ -1,5 +1,5 @@
 import { useState } from "react";
-import Home from "./pages/Home";
+import Home from "./pages/Home";//from home
 function App() {
 const[color,setColor] = useState("red");
 
