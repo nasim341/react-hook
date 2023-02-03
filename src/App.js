@@ -1,5 +1,7 @@
 import { useState } from "react";
 import Home from "./pages/Home";//from home
+import Banner from "./pages/Banner";
+
 function App() {
 const[color,setColor] = useState("red");
 
@@ -11,6 +13,7 @@ const[color,setColor] = useState("red");
     <h1>{color}</h1>
     <button onClick={newcolor}>change</button>
     <Home></Home>
+    <Banner></Banner>
   
   </div>
   );
